@@ -78,8 +78,8 @@ class Blocks(Stage):
         scene = self._setup_base_temple_scene()
 
         copy = [
-            'Oh no, there\'s a boulder',
-            'in the way!'
+            _('Oh no, there\'s a boulder'),
+            _('in the way!')
         ]
         scene.add_widget(
             SpeechBubble(
@@ -112,10 +112,10 @@ class Blocks(Stage):
         scene = self._setup_base_temple_scene()
 
         copy = [
-            'But don\'t worry, you can',
-            'use Kano blocks to create code',
-            'to change what\'s around you.\n',
-            'Looks like there\'s one over there!'
+            _('But don\'t worry, you can'),
+            _('use Kano blocks to create code'),
+            _('to change what\'s around you.\n'),
+            _('Looks like there\'s one over there!')
         ]
         scene.add_widget(
             SpeechBubble(
@@ -230,7 +230,7 @@ class Blocks(Stage):
 
         scene.add_widget(
             SpeechBubble(
-                text="Awesome, now we can escape!",
+                text=_("Awesome, now we can escape!"),
                 source=SpeechBubble.BOTTOM,
                 source_align=0.5,
                 scale=scene.scale_factor

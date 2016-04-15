@@ -1,0 +1,668 @@
+# Japanese translations for kano-init-flow package.
+# Copyright (C) 2016 Kano Computing Ltd.
+# This file is distributed under the same license as the kano-init-flow package.
+# Choppin Antoine <antoine@japonophile.com>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kano-init-flow\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-04-15 21:26+0900\n"
+"PO-Revision-Date: 2016-04-13 21:19+0900\n"
+"Last-Translator: Choppin Antoine <antoine@japonophile.com>\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../kano_init_flow/stages/audio_lab/main.py:88
+msgid "Press the TAB key to play a song!"
+msgstr "音楽を流すにはTABキーを押して！"
+
+#: ../kano_init_flow/stages/audio_lab/main.py:154
+msgid "Plug in the blue cable"
+msgstr "青いケーブルを挿し込んでね"
+
+#: ../kano_init_flow/stages/audio_lab/main.py:155
+msgid "Check you've plugged in the audio"
+msgstr "オーディオケーブルを挿し込んだか確認しよう"
+
+#: ../kano_init_flow/stages/audio_lab/main.py:156
+#: ../kano_init_flow/kw_slideshow/main.py:46
+msgid "NEXT"
+msgstr "次へ"
+
+#: ../kano_init_flow/stages/audio_lab/main.py:171
+msgid "Can you see the blue light?"
+msgstr "青いライトは見えますか？"
+
+#: ../kano_init_flow/stages/audio_lab/main.py:172
+msgid "If the power plugs are connected correctly,"
+msgstr "電力プラグが正しく接続されれば"
+
+#: ../kano_init_flow/stages/audio_lab/main.py:173
+msgid "you should see a blue light."
+msgstr "青いライトが見えるはずだ。"
+
+#: ../kano_init_flow/stages/audio_lab/main.py:174
+#: ../kano_init_flow/stages/audio_lab/main.py:247
+#: ../kano_init_flow/stages/light_lab/main.py:164
+#: ../kano_init_flow/stages/overscan_old/main.py:142
+msgid "YES"
+msgstr "はい"
+
+#: ../kano_init_flow/stages/audio_lab/main.py:175
+#: ../kano_init_flow/stages/audio_lab/main.py:250
+#: ../kano_init_flow/stages/light_lab/main.py:167
+#: ../kano_init_flow/stages/overscan_old/main.py:145
+msgid "NO"
+msgstr "いいえ"
+
+#: ../kano_init_flow/stages/audio_lab/main.py:185
+#: ../kano_init_flow/stages/wifi/main.py:416
+msgid "TRY AGAIN"
+msgstr "やり直す"
+
+#: ../kano_init_flow/stages/audio_lab/main.py:188
+#: ../kano_init_flow/stages/wifi/main.py:376
+msgid "SKIP"
+msgstr "飛ばす"
+
+#: ../kano_init_flow/stages/audio_lab/main.py:194
+msgid "USE TV SPEAKERS"
+msgstr "TVスピーカーを使って"
+
+#: ../kano_init_flow/stages/audio_lab/main.py:203
+#: ../kano_init_flow/stages/light_lab/main.py:124
+msgid "No light? Check the GPIO"
+msgstr "光らない？GPIOを確認して"
+
+#: ../kano_init_flow/stages/audio_lab/main.py:204
+#: ../kano_init_flow/stages/light_lab/main.py:125
+msgid "The cable has to be connected to these"
+msgstr "このピンにケーブルを正しく接続"
+
+#: ../kano_init_flow/stages/audio_lab/main.py:205
+#: ../kano_init_flow/stages/light_lab/main.py:126
+msgid "pins exactly."
+msgstr "しなければならない。"
+
+#: ../kano_init_flow/stages/audio_lab/main.py:235
+msgid "Can you hear a sound?"
+msgstr "音は聞こえますか？"
+
+#: ../kano_init_flow/stages/blocks/main.py:81
+msgid "Oh no, there's a boulder"
+msgstr "いゃ〜、玉石が道に"
+
+#: ../kano_init_flow/stages/blocks/main.py:82
+msgid "in the way!"
+msgstr "あるぞ！"
+
+#: ../kano_init_flow/stages/blocks/main.py:115
+msgid "But don't worry, you can"
+msgstr "でも心配しないで、カノ"
+
+#: ../kano_init_flow/stages/blocks/main.py:116
+msgid "use Kano blocks to create code"
+msgstr "ブロックを使って、君の周りの世界を"
+
+#: ../kano_init_flow/stages/blocks/main.py:117
+msgid "to change what's around you.\n"
+msgstr "変えるためのコードが作れる。\n"
+
+#: ../kano_init_flow/stages/blocks/main.py:118
+msgid "Looks like there's one over there!"
+msgstr "ほら、ここに一個あるよ！"
+
+#: ../kano_init_flow/stages/blocks/main.py:233
+msgid "Awesome, now we can escape!"
+msgstr "素晴らしい、これで逃げられる！"
+
+#: ../kano_init_flow/stages/bugs/main.py:73
+msgid ""
+"Oh no bugs!\n"
+"Click on them quick to remove them."
+msgstr ""
+"いゃ〜、バグ（虫）だ！\n"
+"早く、クリックして取り除いてよ。"
+
+#: ../kano_init_flow/stages/bugs/main.py:76
+msgid "Phew, thanks for cleaning up!"
+msgstr "ホッと、きれいにしてくれてありがとう！"
+
+#: ../kano_init_flow/stages/desktop/main.py:79
+msgid ""
+"We made it to the desktop!\n"
+"Click here to set up your profile"
+msgstr ""
+"デスクトップまできましたよ！\n"
+"ここをクリックして、君のプロファイルを作ろう"
+
+#: ../kano_init_flow/stages/desktop/main.py:133
+msgid ""
+"This is Kano World, where\n"
+"you can code with cool people,\n"
+"and get new apps.\n"
+"Click to continue."
+msgstr ""
+"こちらはKanoワールドだよ\n"
+"仲間と一緒にコードを書いたり\n"
+"新しいアプリをゲットできたりするよ。\n"
+"クリックして次へ。"
+
+#: ../kano_init_flow/stages/desktop/main.py:159
+msgid ""
+"Click the Home button to\n"
+"return to the desktop."
+msgstr ""
+"ホームボタンをクリックして\n"
+"デスクトップに戻ろう。"
+
+#: ../kano_init_flow/stages/desktop/main.py:165
+msgid ""
+"If you need Help,\n"
+"you can click here."
+msgstr ""
+"ヘルプを求めるには\n"
+"ここをクリックしてね。"
+
+#: ../kano_init_flow/stages/desktop/main.py:171
+msgid ""
+"Here's where you can\n"
+"sync your online Profile."
+msgstr ""
+"ここで君のオンライン\n"
+"プロファイルを同期できる。"
+
+#: ../kano_init_flow/stages/desktop/main.py:177
+msgid ""
+"You can change Internet\n"
+"settings here."
+msgstr ""
+"インターネットの設定は\n"
+"ここで変えられる。"
+
+#: ../kano_init_flow/stages/desktop/main.py:183
+msgid ""
+"Want updates?\n"
+"Click on the Updater."
+msgstr ""
+"アップデートしたい？\n"
+"アップデーターをクリックしてね。"
+
+#: ../kano_init_flow/stages/desktop/main.py:189
+msgid ""
+"And this is where you can change\n"
+"all the system Settings."
+msgstr ""
+"そしてここで全てのシステム設定を\n"
+"変更できるよ。"
+
+#: ../kano_init_flow/stages/desktop/main.py:195
+msgid ""
+"Control the volume\n"
+"of the system."
+msgstr ""
+"システムの音量を\n"
+"制御できる。"
+
+#: ../kano_init_flow/stages/desktop/main.py:217
+msgid ""
+"This is your Taskbar!\n"
+"Click on the different widgets to find\n"
+"out more about what they do."
+msgstr ""
+"これは君のタスクバーだよ！\n"
+"それぞれのウィジェットをクリックして\n"
+"何ができるか見つけよう。"
+
+#: ../kano_init_flow/stages/desktop/main.py:276
+msgid ""
+"Customize your own Snake game,\n"
+"and share special gameboards."
+msgstr ""
+"自分のスネーク（ヘビ）ゲームを\n"
+"改造して、独特のゲームボードを作ろう。"
+
+#: ../kano_init_flow/stages/desktop/main.py:282
+msgid ""
+"You can make this classic game yourself,\n"
+"with new rules, cheats, and powers."
+msgstr ""
+"新しいルール、ずる、パワーを付け加えて、\n"
+"このクラシックゲームを自分で作れる。"
+
+#: ../kano_init_flow/stages/desktop/main.py:288
+msgid ""
+"Normal people play Minecraft.\n"
+"On Kano, you can hack the game with code."
+msgstr ""
+"普通の人々はマインクラフトで遊んでるけど、\n"
+"Kanoではコードでゲームをハックできるよ。"
+
+#: ../kano_init_flow/stages/desktop/main.py:294
+msgid ""
+"The Terminal talks to the computer's\n"
+"brain directly. Use its powers to go on a quest."
+msgstr ""
+"ターミナルはコンピューターの頭脳に直接\n"
+"命令してる。そのパワーを使って探検しよう。"
+
+#: ../kano_init_flow/stages/desktop/main.py:300
+msgid ""
+"You can make sounds, beats, loops,\n"
+"and songs on Kano."
+msgstr ""
+"Kanoで音、リズム、ループと歌を\n"
+"作れるよ。"
+
+#: ../kano_init_flow/stages/desktop/main.py:306
+msgid ""
+"Ever drawn or painted?\n"
+"You can create incredible artworks with code."
+msgstr ""
+"お絵描きや塗り絵は好き？\n"
+"コードで素晴らしいアートワークが作れるよ。"
+
+#: ../kano_init_flow/stages/desktop/main.py:312
+msgid "You can browse the web."
+msgstr "ウェブサーフィンができる。"
+
+#: ../kano_init_flow/stages/desktop/main.py:317
+msgid "You can play with code blocks."
+msgstr "コードブロックで遊べる。"
+
+#: ../kano_init_flow/stages/desktop/main.py:322
+msgid "Look at your files and folders here."
+msgstr "ここで自分のファイルとフォルダーが見られる。"
+
+#: ../kano_init_flow/stages/desktop/main.py:327
+msgid "Find even more apps here."
+msgstr "ここでさらに他のアプリがあるよ。"
+
+#: ../kano_init_flow/stages/desktop/main.py:332
+msgid "YouTube"
+msgstr "ユーチューブ"
+
+#: ../kano_init_flow/stages/desktop/main.py:380
+msgid ""
+"These are your Apps!\n"
+"You can make games, songs,\n"
+"artworks and more,\n"
+"then share them to World."
+msgstr ""
+"これは君のアプリだよ！\n"
+"ゲーム、歌、アートワーク\n"
+"などなど作って、世界と\n"
+"共有できるよ。"
+
+#: ../kano_init_flow/stages/drag_and_drop/main.py:48
+msgid ""
+"Click on me,\n"
+"hold down the mouse button,\n"
+"and drag me across!"
+msgstr ""
+"僕をクリックし、\n"
+"マウスボタンを押しながら、\n"
+"僕を反対側まで運んでね！"
+
+#: ../kano_init_flow/stages/drag_and_drop/main.py:95
+msgid ""
+"Pick me up with the cursor\n"
+"and hold the left button down\n"
+"while dragging me over."
+msgstr ""
+"カーソルで僕を引っ張って\n"
+"左ボタンを押し続けながら\n"
+"あっちまで運んでね。"
+
+#: ../kano_init_flow/stages/drag_and_drop/main.py:105
+msgid "Thanks!"
+msgstr "ありがとう！"
+
+#: ../kano_init_flow/stages/intro/main.py:80
+msgid "Click NEXT to start"
+msgstr "始めるには「次」をクリックしてね"
+
+#: ../kano_init_flow/stages/intro/main.py:122
+msgid "Well done! You brought your"
+msgstr "よくやったぞ！"
+
+#: ../kano_init_flow/stages/intro/main.py:123
+msgid "Kano to life! I'm Judoka and I"
+msgstr "君のKanoを生かしたね！"
+
+#: ../kano_init_flow/stages/intro/main.py:124
+msgid "will be your guide through the"
+msgstr "僕は柔道家で、君にKanoの世界を"
+
+#: ../kano_init_flow/stages/intro/main.py:125
+msgid "world of Kano."
+msgstr "紹介していくよ。"
+
+#: ../kano_init_flow/stages/intro/main.py:174
+msgid "Kano is a world where"
+msgstr "Kanoは何でもできる"
+
+#: ../kano_init_flow/stages/intro/main.py:175
+msgid "anything is possible!"
+msgstr "世界だよ！"
+
+#: ../kano_init_flow/stages/intro/main.py:176
+msgid "Judokas can make and play"
+msgstr "柔道家がコードの力を使って"
+
+#: ../kano_init_flow/stages/intro/main.py:177
+msgid "using code powers."
+msgstr "物を作ったり、遊んだりできるよ。"
+
+#: ../kano_init_flow/stages/intro/main.py:219
+msgid "Ready to go? Jump on in!"
+msgstr "準備はいいか？さー、行くよ！"
+
+#: ../kano_init_flow/stages/light_lab/main.py:62
+msgid ""
+"Now let's check the lights work!\n"
+"\n"
+"Press the ON button to light up."
+msgstr ""
+"それでは、ライトを確認しよう！\n"
+"\n"
+"ONボタンを押して、ライトをつけよう。"
+
+#: ../kano_init_flow/stages/light_lab/main.py:127
+#: ../kano_init_flow/stages/wifi/main.py:458
+msgid "GOT IT"
+msgstr "了解"
+
+#: ../kano_init_flow/stages/light_lab/main.py:152
+msgid "Can you see the lights?"
+msgstr "ライトは見えるか？"
+
+#: ../kano_init_flow/stages/overscan/main.py:146
+msgid "Screen machine"
+msgstr "スクリーンマシン"
+
+#: ../kano_init_flow/stages/overscan/main.py:151
+msgid "Use the up and down arrows on the"
+msgstr "キーボードの上下矢印キーを使って"
+
+#: ../kano_init_flow/stages/overscan/main.py:152
+msgid "keyboard to adjust the picture until the"
+msgstr "スクリーン押し線がモニターや"
+
+#: ../kano_init_flow/stages/overscan/main.py:153
+msgid "screen pushing machine lines up with the"
+msgstr "テレビ画面の端と一致するまで"
+
+#: ../kano_init_flow/stages/overscan/main.py:154
+msgid "edges of your TV."
+msgstr "画像を調整してみてね。"
+
+#: ../kano_init_flow/stages/overscan/main.py:167
+msgid "on your keyboard to increase"
+msgstr "キーで上げられる"
+
+#: ../kano_init_flow/stages/overscan/main.py:168
+msgid "on your keyboard to decrease"
+msgstr "キーで下げられる"
+
+#: ../kano_init_flow/stages/overscan/main.py:169
+msgid "click the button to confirm"
+msgstr "確定するにはこのボタンをクリック"
+
+#: ../kano_init_flow/stages/overscan/main.py:183
+msgid "GO"
+msgstr "ゴー"
+
+#: ../kano_init_flow/stages/overscan_old/main.py:135
+msgid "Are the white lines touching the edges?"
+msgstr "白線はモニターの端を触れているか？"
+
+#: ../kano_init_flow/stages/overscan_old/main.py:164
+msgid "Use UP and DOWN keys"
+msgstr "上下のキーを使って"
+
+#: ../kano_init_flow/stages/overscan_old/main.py:170
+msgid "Stretch or shrink your screen, until the white lines"
+msgstr "白線が端と一致するまで、画面を伸ばしたり縮めたり"
+
+#: ../kano_init_flow/stages/overscan_old/main.py:175
+msgid "are lined up with the edges"
+msgstr "してみてね。"
+
+#: ../kano_init_flow/stages/overscan_old/main.py:182
+msgid "DONE"
+msgstr "終わり"
+
+#: ../kano_init_flow/stages/pi_audio/main.py:84
+msgid ""
+"Let's make sure our sound\n"
+"is loud and clear."
+msgstr ""
+"音量と音がキレイかどうか\n"
+"確認しよう。"
+
+#: ../kano_init_flow/stages/pi_audio/main.py:100
+msgid ""
+"Click on the blue cable\n"
+"to continue."
+msgstr ""
+"続けるには、青いケーブルを\n"
+"クリックしてね。"
+
+#: ../kano_init_flow/stages/pi_complete/main.py:53
+msgid "You set it up! Now it's time to play."
+msgstr "設定は終わった！これから遊ぶ時間だ。"
+
+#: ../kano_init_flow/stages/pi_hdmi/main.py:85
+msgid "Let's set up your display!"
+msgstr "ディスプレーを設定しよう！"
+
+#: ../kano_init_flow/stages/pi_keyboard/main.py:85
+msgid "Time to set up the keyboard!"
+msgstr "キーボードを設定しよう！"
+
+#: ../kano_init_flow/stages/pi_wifi/main.py:90
+msgid "Let's set up WiFi"
+msgstr "WiFiを設定しよう"
+
+#: ../kano_init_flow/stages/pi_wifi/main.py:105
+msgid ""
+"Click on the green dongle\n"
+"to continue."
+msgstr ""
+"続けるには緑のドングルを\n"
+"クリックしてね。"
+
+#: ../kano_init_flow/stages/quests/main.py:76
+msgid ""
+"You did it! Now you know how\n"
+"to control your computer.\n"
+"This was the first of many\n"
+"quests you'll find in the\n"
+"World of Kano"
+msgstr ""
+"よくやった！コンピューターの\n"
+"操作が分かったね。\n"
+"これでKanoワールドの最初の\n"
+"クェストができた。他にも\n"
+"いっぱいあるよ。"
+
+#: ../kano_init_flow/stages/quests/main.py:125
+msgid "Click on my scroll to find"
+msgstr "僕のスクロールを"
+
+#: ../kano_init_flow/stages/quests/main.py:126
+msgid "out more and start the"
+msgstr "クリックして、次の冒険を"
+
+#: ../kano_init_flow/stages/quests/main.py:127
+msgid "next adventure..."
+msgstr "始めよう..."
+
+#: ../kano_init_flow/stages/quests/main.py:185
+msgid "Quests are a series of tasks that you"
+msgstr "クェストというのは、Kanoでいくつかの"
+
+#: ../kano_init_flow/stages/quests/main.py:186
+msgid "can complete on your Kano to get"
+msgstr "課題をクリアすれば、素晴らしい"
+
+#: ../kano_init_flow/stages/quests/main.py:187
+msgid "great rewards."
+msgstr "プレゼントがもらえるものだよ。"
+
+#: ../kano_init_flow/stages/quests/main.py:216
+msgid "Complete all of the ticks in a"
+msgstr "クェストの全ての課題をクリアすると"
+
+#: ../kano_init_flow/stages/quests/main.py:217
+msgid "quest to unlock rewards."
+msgstr "プレゼントが手に入る。"
+
+#: ../kano_init_flow/stages/quests/main.py:246
+msgid "New quest"
+msgstr "新しいクェスト"
+
+#: ../kano_init_flow/stages/quests/main.py:252
+msgid "Journey to Kano World"
+msgstr "Kanoワールドへの旅"
+
+#: ../kano_init_flow/stages/wardrobe/main.py:52
+msgid ""
+"Let's dress up your\n"
+"character!"
+msgstr ""
+"君のキャラクターに\n"
+"服を着せよう！"
+
+#: ../kano_init_flow/stages/wardrobe/main.py:131
+msgid "You look amazing!"
+msgstr "すごく似合う！"
+
+#: ../kano_init_flow/stages/wardrobe/main.py:167
+msgid "OK"
+msgstr "了解"
+
+#: ../kano_init_flow/stages/wifi/main.py:91
+msgid "Let's connect to the web!"
+msgstr "ウェブに接続しよう！"
+
+#: ../kano_init_flow/stages/wifi/main.py:93
+msgid "Get started by clicking"
+msgstr "まず、WiFiコンソールを"
+
+#: ../kano_init_flow/stages/wifi/main.py:94
+msgid "the WiFi console!"
+msgstr "クリックしてね！"
+
+#: ../kano_init_flow/stages/wifi/main.py:198
+msgid "Oh no, the connection failed!"
+msgstr "しまったー、接続が失敗したよ！"
+
+#: ../kano_init_flow/stages/wifi/main.py:199
+msgid "But we can still play."
+msgstr "それでも遊べる。"
+
+#: ../kano_init_flow/stages/wifi/main.py:300
+msgid "If you have access to an ethernet cable, try using that instead."
+msgstr "イーサネットケーブルを持っていれば、替わりに使ってみて。"
+
+#: ../kano_init_flow/stages/wifi/main.py:315
+msgid "Try moving your Kano closer to the internet wireless router."
+msgstr "Kanoを無線ルーターに近づいてみれば？"
+
+#: ../kano_init_flow/stages/wifi/main.py:328
+msgid ""
+"Having trouble connecting? Find us at help.kano.me and we'll come to the "
+"rescue!"
+msgstr ""
+"接続できないの？ help.kano.meで連絡すれば、\n"
+"助けに行くよ！"
+
+#: ../kano_init_flow/stages/wifi/main.py:366
+msgid "Oops there was a problem connecting to internet."
+msgstr "あれっ、インターネット接続に問題があるよ。"
+
+#: ../kano_init_flow/stages/wifi/main.py:373
+msgid "FIX IT"
+msgstr "直す"
+
+#: ../kano_init_flow/stages/wifi/main.py:403
+msgid "Are You Sure?"
+msgstr "本当に？"
+
+#: ../kano_init_flow/stages/wifi/main.py:408
+msgid ""
+"Kano uses WiFi to stay up to date\n"
+"with all new software updates, apps\n"
+"and features."
+msgstr ""
+"KanoはWiFiを使って、ソフトウェアや\n"
+"アプリ、また新しい機能をどんどん\n"
+"更新していくんだ。"
+
+#: ../kano_init_flow/stages/wifi/main.py:419
+msgid "YES I WANT TO SKIP"
+msgstr "はい、飛ばします。"
+
+#: ../kano_init_flow/stages/wifi/main.py:447
+msgid "For parents..."
+msgstr "保護者の方へ..."
+
+#: ../kano_init_flow/stages/wifi/main.py:450
+msgid ""
+"You can put a safety filter on Kano's internet. You can set it now or later."
+msgstr ""
+"Kanoのインターネットに安全フィルターを設定できます。今でも後でも設定できま"
+"す。"
+
+#: ../kano_init_flow/stages/wifi/main.py:462
+msgid "SET NOW"
+msgstr "今設定する"
+
+#: ../kano_init_flow/kw_slideshow/main.py:34
+msgid "Get Started"
+msgstr "はじめる"
+
+#: ../kano_init_flow/kw_slideshow/main.py:36
+msgid "Apps"
+msgstr "アプリ"
+
+#: ../kano_init_flow/kw_slideshow/main.py:39
+msgid ""
+"Create and play with\n"
+"Kano's Apps to make and save your\n"
+"own code masterpieces, from games\n"
+"and minecraft world, to art and music pieces..."
+msgstr ""
+"Kanoアプリで遊んで、ゲームから\n"
+"マインクラフトの世界まで、アートや\n"
+"音楽など、自分だけの作品を作って\n"
+"保存できるよ。"
+
+#: ../kano_init_flow/kw_slideshow/main.py:69
+msgid "Kano World"
+msgstr "Kanoワールド"
+
+#: ../kano_init_flow/kw_slideshow/main.py:72
+msgid ""
+"Show off and share your creations to friends\n"
+"family and other Kano users on Kano World.\n"
+"\n"
+"Why not check it out now by clicking on the\n"
+"icon to see what people have made today."
+msgstr ""
+"Kanoワールドで自分の作品を友達、家族と、\n"
+"他のKanoユーザに自慢しよう。\n"
+"\n"
+"このアイコンをクリックし、他の人が今日\n"
+"作ったものを今見てみない？"
+
+#: ../kano_init_flow/kw_slideshow/main.py:79
+msgid "LET'S GO"
+msgstr "レッツゴー"

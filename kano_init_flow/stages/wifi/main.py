@@ -88,10 +88,10 @@ class Wifi(Stage):
         )
 
         copy = [
-            'Let\'s connect to the web!',
+            _('Let\'s connect to the web!'),
             '',
-            'Get started by clicking',
-            'the WiFi console!'
+            _('Get started by clicking'),
+            _('the WiFi console!')
         ]
         sb = SpeechBubble(text='\n'.join(copy), source=SpeechBubble.BOTTOM,
                           scale=scene.scale_factor)
@@ -195,8 +195,8 @@ class Wifi(Stage):
         )
 
         copy = [
-            'Oh no, the connection failed!',
-            'But we can still play.',
+            _('Oh no, the connection failed!'),
+            _('But we can still play.'),
         ]
         scene.add_widget(
             SpeechBubble(text='\n'.join(copy), source=SpeechBubble.BOTTOM,
@@ -297,8 +297,8 @@ class WifiConsole(Gtk.Overlay):
 
     def troubleshoot_ethernet(self):
         self._clear()
-        copy = 'If you have access to an ethernet cable, ' +\
-               'try using that instead.'
+        copy = _('If you have access to an ethernet cable, ' +\
+               'try using that instead.')
         screen = SlideScreen(
             self._stage,
             self._stage.media_path('ethernet-cable.png'),
@@ -312,7 +312,7 @@ class WifiConsole(Gtk.Overlay):
 
     def troubleshoot_router(self):
         self._clear()
-        copy = 'Try moving your Kano closer to the internet wireless router.'
+        copy = _('Try moving your Kano closer to the internet wireless router.')
         screen = SlideScreen(
             self._stage,
             self._stage.media_path('router.png'),
@@ -325,7 +325,7 @@ class WifiConsole(Gtk.Overlay):
 
     def contact_us(self):
         self._clear()
-        copy = 'Having trouble connecting? Find us at help.kano.me and we\'ll come to the rescue!'
+        copy = _('Having trouble connecting? Find us at help.kano.me and we\'ll come to the rescue!')
         screen = SlideScreen(
             self._stage,
             self._stage.media_path('judoka-call-centre.png'),
@@ -363,17 +363,17 @@ class TroubleshootOrDisconnect(Gtk.Box):
         self.set_margin_left(40)
         self.set_margin_right(40)
 
-        desc = Gtk.Label('Oops there was a problem connecting to internet.')
+        desc = Gtk.Label(_('Oops there was a problem connecting to internet.'))
         desc.set_line_wrap(True)
         add_class(desc, 'console-screen-desc')
 
         img_path = self._stage.media_path("troubleshooting.png")
         image = Gtk.Image.new_from_file(img_path)
 
-        troubleshoot = KanoButton('FIX IT')
+        troubleshoot = KanoButton(_('FIX IT'))
         troubleshoot.connect('clicked', self._cb_wrapper, troubleshoot_cb)
 
-        skip = KanoButton('SKIP', color="orange")
+        skip = KanoButton(_('SKIP'), color="orange")
         skip.connect('clicked', self._cb_wrapper, skip_cb)
 
         buttons = Gtk.HBox(False, 0)
@@ -400,23 +400,23 @@ class AreYouSure(Gtk.Box):
         self.set_margin_left(40)
         self.set_margin_right(40)
 
-        heading = Gtk.Label('Are You Sure?')
+        heading = Gtk.Label(_('Are You Sure?'))
         heading.set_margin_top(20)
         add_class(heading, 'console-screen-heading')
 
         desc = Gtk.Label(
-            "Kano uses WiFi to stay up to date" +
+            _("Kano uses WiFi to stay up to date" +
             "\nwith all new software updates, apps" +
-            "\nand features."
+            "\nand features.")
         )
         desc.set_justify(Gtk.Justification.CENTER)
         desc.set_line_wrap(True)
         add_class(desc, 'console-screen-desc')
 
-        try_again = KanoButton('TRY AGAIN')
+        try_again = KanoButton(_('TRY AGAIN'))
         try_again.connect('clicked', self._cb_wrapper, try_again_cb)
 
-        skip = KanoButton('YES I WANT TO SKIP', color="grey")
+        skip = KanoButton(_('YES I WANT TO SKIP'), color="grey")
         skip.connect('clicked', self._cb_wrapper, skip_cb,
                      'init-flow-wifi-skipped')
 
@@ -444,22 +444,22 @@ class ParentalScreen(Gtk.VBox):
         self.set_margin_left(40)
         self.set_margin_right(40)
 
-        heading = Gtk.Label('For parents...')
+        heading = Gtk.Label(_('For parents...'))
         add_class(heading, 'console-screen-heading')
 
-        copy = 'You can put a safety filter on Kano\'s internet. ' + \
-               'You can set it now or later.'
+        copy = _('You can put a safety filter on Kano\'s internet. ' + \
+               'You can set it now or later.')
         desc = Gtk.Label(copy)
         desc.set_line_wrap(True)
         add_class(desc, 'console-screen-desc')
 
         padlock = Gtk.Image.new_from_file(stage.media_path('padlock.png'))
 
-        later = KanoButton('GOT IT')
+        later = KanoButton(_('GOT IT'))
         later.connect('clicked', self._cb_wrapper, later_cb, 'init-flow-parental-skipped')
         later.set_size_request(200, 50)
 
-        now = OrangeButton('SET NOW')
+        now = OrangeButton(_('SET NOW'))
         now.connect('clicked', self._cb_wrapper, now_cb, 'init-flow-parental-set')
 
         emptylabel = Gtk.Label("       ")

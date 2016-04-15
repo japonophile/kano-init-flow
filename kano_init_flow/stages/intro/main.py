@@ -77,7 +77,7 @@ class Intro(Stage):
         # move_label.set_margin_right(30)
 
         # Create the keyboard and pack it before putting it in the
-        grab_label = Gtk.Label("Click NEXT to start")
+        grab_label = Gtk.Label(_("Click NEXT to start"))
         grab_label.get_style_context().add_class("big_intro_label")
 
         keyboard_gif = Gtk.Image.new_from_file(
@@ -119,10 +119,10 @@ class Intro(Stage):
                              common_media_path('blueprint-bg-16-9.png'))
 
         copy = [
-            'Well done! You brought your',
-            'Kano to life! I\'m Judoka and I',
-            'will be your guide through the',
-            'world of Kano.'
+            _('Well done! You brought your'),
+            _('Kano to life! I\'m Judoka and I'),
+            _('will be your guide through the'),
+            _('world of Kano.')
         ]
         scene.add_widget(
             SpeechBubble(
@@ -171,10 +171,10 @@ class Intro(Stage):
         )
 
         copy = [
-            "Kano is a world where",
-            "anything is possible!",
-            "Judokas can make and play",
-            "using code powers."
+            _("Kano is a world where"),
+            _("anything is possible!"),
+            _("Judokas can make and play"),
+            _("using code powers.")
         ]
         scene.add_widget(
             SpeechBubble(
@@ -216,7 +216,7 @@ class Intro(Stage):
             Placement(0.18, 0.60, 0),
         )
 
-        copy = ['Ready to go? Jump on in!']
+        copy = [_('Ready to go? Jump on in!')]
         scene.add_widget(
             SpeechBubble(
                 text='\n'.join(copy),
