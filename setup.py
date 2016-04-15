@@ -40,6 +40,20 @@ def get_stages_data():
     return data
 
 
+def get_locales():
+    locale_dir = 'locale'
+    locales = []
+
+    for dirpath, dirnames, filenames in os.walk(locale_dir):
+        for filename in filenames:
+            locales.append(
+                (os.path.join('/usr/share', dirpath),
+                 [os.path.join(dirpath, filename)])
+            )
+
+    return locales
+
+
 def merge_dicts(a, b):
     res = a.copy()
     res.update(b)
@@ -58,4 +72,5 @@ setup(
     package_data=merge_dicts({"kano_init_flow.ui": pkg_data,
                               "kano_init_flow.kw_slideshow": pkg_data,
                              }, get_stages_data())
+    data_files=get_locales()
 )
