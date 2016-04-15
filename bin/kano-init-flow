@@ -21,6 +21,7 @@ Options:
 
 import os
 import sys
+import gettext
 
 # Add the parent directory in the python path
 # TODO: move this elsewhere?
@@ -28,7 +29,11 @@ if __name__ == '__main__' and __package__ is None:
     dir_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
     if dir_path != '/usr':
         sys.path.insert(1, dir_path)
+        LOCALE_PATH = os.path.join(dir_path, 'locale')
+    else:
+        LOCALE_PATH = None
 
+gettext.install('kano-init-flow', LOCALE_PATH, unicode=1)
 
 import docopt
 from gi.repository import Gtk, GObject

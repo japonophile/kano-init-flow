@@ -71,6 +71,6 @@ setup(
              'bin/kano-world-slideshow'],
     package_data=merge_dicts({"kano_init_flow.ui": pkg_data,
                               "kano_init_flow.kw_slideshow": pkg_data,
-                             }, get_stages_data())
+                             }, get_stages_data()),
     data_files=get_locales()
 )
