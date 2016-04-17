@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kano-init-flow\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-15 21:26+0900\n"
+"POT-Creation-Date: 2016-04-17 15:39+0900\n"
 "PO-Revision-Date: 2016-04-13 21:19+0900\n"
 "Last-Translator: Choppin Antoine <antoine@japonophile.com>\n"
 "Language-Team: Japanese\n"
@@ -30,6 +30,8 @@ msgid "Check you've plugged in the audio"
 msgstr "オーディオケーブルを挿し込んだか確認しよう"
 
 #: ../kano_init_flow/stages/audio_lab/main.py:156
+#: ../kano_init_flow/stages/quests/main.py:194
+#: ../kano_init_flow/stages/quests/main.py:223
 #: ../kano_init_flow/kw_slideshow/main.py:46
 msgid "NEXT"
 msgstr "次へ"

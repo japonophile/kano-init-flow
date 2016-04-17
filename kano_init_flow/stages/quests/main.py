@@ -191,7 +191,7 @@ class Scroll(Gtk.Overlay):
         img_path = self._stage.media_path('chest-closed.png')
         chest = Gtk.Image.new_from_file(img_path)
 
-        button = KanoButton('NEXT', color='orange')
+        button = KanoButton(_('NEXT'), color='orange')
         button.connect('clicked', cb_wrapper, self.second_scroll)
 
         text_widgets[0].set_margin_top(30)
@@ -220,7 +220,7 @@ class Scroll(Gtk.Overlay):
 
         chest = Gtk.Image.new_from_file(self._stage.media_path('chest-open.png'))
 
-        button = KanoButton('NEXT', color='orange')
+        button = KanoButton(_('NEXT'), color='orange')
         button.connect('clicked', cb_wrapper, self.third_scroll)
 
         ticks.set_margin_top(20)
