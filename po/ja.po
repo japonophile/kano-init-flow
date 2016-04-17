@@ -141,7 +141,7 @@ msgid ""
 "Click here to set up your profile"
 msgstr ""
 "デスクトップまできましたよ！\n"
-"ここをクリックして、君のプロファイルを作ろう"
+"ここをクリックして、君のプロフィールを作ろう"
 
 #: ../kano_init_flow/stages/desktop/main.py:133
 msgid ""
@@ -218,7 +218,7 @@ msgid ""
 "out more about what they do."
 msgstr ""
 "これは君のタスクバーだよ！\n"
-"それぞれのウィジェットをクリックして\n"
+"それぞれのマークをクリックして\n"
 "何ができるか見つけよう。"
 
 #: ../kano_init_flow/stages/desktop/main.py:276
@@ -235,7 +235,7 @@ msgid ""
 "with new rules, cheats, and powers."
 msgstr ""
 "新しいルール、ずる、パワーを付け加えて、\n"
-"このクラシックゲームを自分で作れる。"
+"このクラシックゲームを自分で改造できる。"
 
 #: ../kano_init_flow/stages/desktop/main.py:288
 msgid ""
